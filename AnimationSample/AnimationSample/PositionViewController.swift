@@ -20,6 +20,7 @@ class PositionViewController: UIViewController {
     }
 
     override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         UIView.animate(withDuration: 1) { 
             self.blueView.center.x = self.view.bounds.width - self.blueView.center.x
             

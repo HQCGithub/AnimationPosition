@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34679B421D9370DA001EF84A /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34679B411D9370DA001EF84A /* OpacityViewController.swift */; };
+		34679B441D937405001EF84A /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34679B431D937405001EF84A /* ScaleViewController.swift */; };
+		34679B461D93783E001EF84A /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34679B451D93783E001EF84A /* ColorViewController.swift */; };
+		34679B481D9378A4001EF84A /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34679B471D9378A4001EF84A /* RotationViewController.swift */; };
+		34679B4C1D937DBC001EF84A /* wheel-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 34679B491D937DBC001EF84A /* wheel-1.png */; };
+		34679B4D1D937DBC001EF84A /* wheel-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 34679B4A1D937DBC001EF84A /* wheel-2.png */; };
+		34679B4E1D937DBC001EF84A /* wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 34679B4B1D937DBC001EF84A /* wheel.png */; };
 		6F0457841D92B8F10065E308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0457831D92B8F10065E308 /* AppDelegate.swift */; };
 		6F0457861D92B8F10065E308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0457851D92B8F10065E308 /* ViewController.swift */; };
 		6F0457891D92B8F10065E308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0457871D92B8F10065E308 /* Main.storyboard */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34679B411D9370DA001EF84A /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
+		34679B431D937405001EF84A /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
+		34679B451D93783E001EF84A /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		34679B471D9378A4001EF84A /* RotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
+		34679B491D937DBC001EF84A /* wheel-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wheel-1.png"; sourceTree = "<group>"; };
+		34679B4A1D937DBC001EF84A /* wheel-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wheel-2.png"; sourceTree = "<group>"; };
+		34679B4B1D937DBC001EF84A /* wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel.png; sourceTree = "<group>"; };
 		6F0457801D92B8F10065E308 /* AnimationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0457831D92B8F10065E308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F0457851D92B8F10065E308 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,8 +73,15 @@
 				6F0457831D92B8F10065E308 /* AppDelegate.swift */,
 				6F0457851D92B8F10065E308 /* ViewController.swift */,
 				6F0457951D92BCDB0065E308 /* PositionViewController.swift */,
+				34679B411D9370DA001EF84A /* OpacityViewController.swift */,
+				34679B431D937405001EF84A /* ScaleViewController.swift */,
+				34679B451D93783E001EF84A /* ColorViewController.swift */,
+				34679B471D9378A4001EF84A /* RotationViewController.swift */,
 				6F0457871D92B8F10065E308 /* Main.storyboard */,
 				6F04578A1D92B8F20065E308 /* Assets.xcassets */,
+				34679B491D937DBC001EF84A /* wheel-1.png */,
+				34679B4A1D937DBC001EF84A /* wheel-2.png */,
+				34679B4B1D937DBC001EF84A /* wheel.png */,
 				6F04578C1D92B8F20065E308 /* LaunchScreen.storyboard */,
 				6F04578F1D92B8F20065E308 /* Info.plist */,
 			);
@@ -127,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F04578E1D92B8F20065E308 /* LaunchScreen.storyboard in Resources */,
+				34679B4C1D937DBC001EF84A /* wheel-1.png in Resources */,
+				34679B4D1D937DBC001EF84A /* wheel-2.png in Resources */,
 				6F04578B1D92B8F20065E308 /* Assets.xcassets in Resources */,
 				6F0457891D92B8F10065E308 /* Main.storyboard in Resources */,
+				34679B4E1D937DBC001EF84A /* wheel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +164,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F0457961D92BCDB0065E308 /* PositionViewController.swift in Sources */,
+				34679B441D937405001EF84A /* ScaleViewController.swift in Sources */,
 				6F0457861D92B8F10065E308 /* ViewController.swift in Sources */,
+				34679B421D9370DA001EF84A /* OpacityViewController.swift in Sources */,
+				34679B481D9378A4001EF84A /* RotationViewController.swift in Sources */,
+				34679B461D93783E001EF84A /* ColorViewController.swift in Sources */,
 				6F0457841D92B8F10065E308 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +331,7 @@
 				6F0457941D92B8F20065E308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
